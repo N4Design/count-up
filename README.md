@@ -8,3 +8,5 @@
 * Commas -add comma separators to number, default false
 ### Demo
 https://codepen.io/N4Design/pen/JBgeqy
+#### Credit
+Credit to https://codepen.io/hi-im-si/ for the original idea
