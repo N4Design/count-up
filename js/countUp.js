@@ -1,10 +1,10 @@
-function countUp(id, duration, easing, commas) {
-    var $this = $(id),
-        countTo = $this.attr('data-count');
-        
+function countUp(id, attribute, duration, easing, commas) {
+    (attribute === undefined) ? attribute = 'data-count-to' : null;
     (duration === undefined) ? duration = 1000 : null;
     (easing === undefined) ? easing = 'linear' : null;
     (commas === undefined) ? commas = false : null;
+    var $this = $(id),
+        countTo = $this.attr(attribute);
 
     $({countNum: $this.text()})
         .animate({
