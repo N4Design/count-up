@@ -2,6 +2,7 @@
 ## Count Up To Defined Figure
 ### Features
 #### Parameters
+* Attribute - name of attribute with count up to value, default 'data-count-to';
 * Duration - animate timing function, default 1000ms;
 * Easing - animate easing function, default 'linear';
 * Commas -add comma separators to number, default false
