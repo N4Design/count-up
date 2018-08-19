@@ -6,6 +6,8 @@
 * Duration - animate timing function, default 1000ms;
 * Easing - animate easing function, default 'linear';
 * Commas - add comma separators to number, default false
+#### Calling
+E.g. countUp('#idtoapply', 'data-count-to', 1000, 'swing', true)
 ### Demo
 https://codepen.io/N4Design/pen/JBgeqy
 ### Live Example
